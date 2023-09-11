@@ -1,0 +1,9 @@
+If the software closes suddenly when using ise impact when selecting the .bit file, solve the problem by following the path:
+
+1.going to this location: ""\ISE_DS\ISE\lib\nt64""
+
+2. rename ""libPortability.dll"" TO ""libPortability.dll.org""
+
+3.rename ""libPortabilityNOSH.dll"" TO ""libPortability.dll.org""
+
+4.Your problem solved :)
